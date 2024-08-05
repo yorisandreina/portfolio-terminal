@@ -61,7 +61,7 @@ export const projects = [
     technologies: "Node.js, Mapbox API",
     creationDate: "July, 2024",
     images: [],
-    githubLink: "https://github.com/yorisandreina/",
+    githubLink: "https://github.com/yorisandreina/weather-command-line-app",
   },
   {
     name: "To Do List Command Line App",
