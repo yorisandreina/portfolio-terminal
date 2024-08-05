@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./Header.css";
 
+require("dotenv").config();
+
 const Header = () => {
   const [time, setTime] = useState("");
   const [date, setDate] = useState("");
@@ -19,7 +21,7 @@ const Header = () => {
     };
 
     const fetchWeather = async () => {
-      const apiKey = "54975c74be7680a21385e40c260898f1";
+      const apiKey = process.env.OPENWEATHER_API;
       const location = "Madrid, Spain";
       const response = await fetch(
         `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`
