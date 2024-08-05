@@ -5,7 +5,7 @@ const Dock = () => {
   return (
     <div className="dock">
       <a
-        href="https://github.com/your-profile"
+        href="https://github.com/yorisandreina"
         target="_blank"
         rel="noopener noreferrer"
       >

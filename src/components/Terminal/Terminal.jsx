@@ -56,7 +56,7 @@ const Terminal = () => {
         projects
           .map(
             (project, index) =>
-              `<li>Type 'project ${index + 1}' to view ${project.name}</li> ` + '</br>'
+              `<li>Type 'project ${index + 1}' to view ${project.name}</li> `
           )
           .join("") + "</br>"
     ]);
@@ -74,7 +74,7 @@ const Terminal = () => {
             ${project.keyHighlights
               .map(
                 (highlight, index) =>
-                  `<li key=${index}>${highlight}</li>` + "</br>"
+                  `<li key=${index}>${highlight}</li>`
               )
               .join("")}
           <p>${project.knowledge}</p>
