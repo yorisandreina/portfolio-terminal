@@ -1,0 +1,40 @@
+.mac-header {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5vh; 
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1vh;
+    z-index: 1000;
+}
+
+.mac-header-left, .mac-header-right {
+    display: flex;
+    align-items: center;
+    padding: 0 2.5vh;
+}
+
+.header-text {
+    margin-left: 1vh;
+    color: white;
+    font-size: 14px;
+}
+
+.header-icon {
+    width: 2.5vh;
+    height: 2.5vh;
+    margin-right: 1vh;
+}
+
+.header-text {
+    margin-right: 1vh;
+    font-size: 12px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 500;
+    padding: 1vh;
+}
