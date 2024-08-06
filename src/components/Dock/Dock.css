@@ -26,3 +26,18 @@
     width: 5vh;
     height: 5vh;
 }
+
+.bg {
+    width: 60vh;
+    height: 10vh;
+}
+
+.dock button {
+    transition: transform 0.3s;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.dock button:hover {
+    transform: scale(1.2);
+}

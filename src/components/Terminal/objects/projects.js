@@ -110,7 +110,7 @@ export const projects = [
     knowledge:
       "This project demonstrates my ability to design and implement a fully functional RESTful API, manage data with MongoDB, and validate functionality using Postman, showcasing essential skills for backend development and API management.",
     technologies: "Node.js, MongoDB and Postman",
-    creationDate: "July, 2024",
+    creationDate: "June, 2024",
     images: [],
     githubLink: "https://github.com/yorisandreina/mywebsite",
     designLink:
