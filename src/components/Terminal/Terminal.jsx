@@ -56,9 +56,9 @@ const Terminal = () => {
         projects
           .map(
             (project, index) =>
-              `<li>Type 'project ${index + 1}' to view ${project.name}</li> `
+              `<li>Type 'project ${index + 1}' to view ${project.name}</li>`
           )
-          .join("") + "</br>"
+          .join("")
     ]);
   }
 
@@ -67,8 +67,7 @@ const Terminal = () => {
     if (project) {
       setOutput((prevOutput) => [
         ...prevOutput,
-        `<div>
-          <h2>${project.name}</h2>
+        `<div><h2>${project.name}</h2>
           <p>Creation date: ${project.creationDate}</p>
           <p>${project.description}</p>
             ${project.keyHighlights
@@ -116,15 +115,7 @@ const Terminal = () => {
   function showHelp() {
     setOutput((prevOutput) => [
       ...prevOutput,
-      `<div><h2>Available Commands</h2><li>1 - About Me</li>
-        <li>2 - Projects</li>
-        <li>3 - Experience</li>
-        <li>4 - Skills</li>
-        <li>5 - Education</li>
-        <li>clear - Clear the terminal</li>
-        <li>help - Show this help message</li>
-        <li>project [number] - View a specific project</li>
-      </div>`,
+      `<div><h2>Available Commands</h2><li>1 - About Me</li><li>2 - Projects</li><li>3 - Experience</li><li>clear - Clear the terminal</li><li>help - Show this help message</li><li>project [number] - View a specific project</li></div>`,
     ]);
   }
 
